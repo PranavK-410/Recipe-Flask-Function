@@ -4,7 +4,7 @@ This repository contains the source code for the Group Project of "COMPGC27 Prog
 
 ## Group Members
 * [Yolande Kaptein](https://github.com/yolaCaptain)
-* Akis Thomas
+* [Akis Thomas](https://github.com/akisthomas)
 * Hadrien de Vaucleroy
 * [Akis Karamaziotis](https://github.com/AkisKa)
 * [Phedon Dervis](https://github.com/Pderv049)
