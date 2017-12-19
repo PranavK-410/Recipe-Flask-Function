@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title> Foody's </title>
+  <link href="../static/css/style.css" rel="stylesheet">
+	<link href="../static/css/bootstrap.min.css" rel="stylesheet">
+	<link href="../static/css/cover.css" rel="stylesheet">
+  <script defer src="https://use.fontawesome.com/releases/v5.0.1/js/all.js"></script>
+</head>
+<body>
+	<div class="site-wrapper">
+
+      <div class="site-wrapper-inner">
+
+        <div class="cover-container">
+
+          <div class="masthead clearfix">
+            <div class="inner" style ="padding-bottom: 50px">
+              <h3 class="masthead-brand" style="display:inline-block">
+                <a href="/initial/">
+                  <img class="img-responsive, title-logo" src="../static/logo-textSize.png" style="height:80px; margin-top:-20px"/>
+                </a>
+              </h3>
+              <nav>
+                <ul class="nav masthead-nav">
+                  <li class="active"><a href="/initial/">Get Inspired!</a></li>
+                  <li><a href="/favourites/">My Recipes</a></li>
+                </ul>
+              </nav>
+            </div>
+          </div>
+
+          <div class="inner cover" style="padding-top: 80px">
+            <div class = "lead, recipeImg-container">
+              <img class="img-responsive, lead, recipeImg" src="{{ imgPath }}"/>
+            </div>
+            <div class="recipeName-container">
+              <p class="lead, recipeName"> <b>{{  recipeName  }}</b></p>
+            </div>
+            <br>
+            <div class="recipe-container">
+              <p class="lead, recipe"> {{ recipe }} </p>
+            </div>
+            <br>
+            <p class="lead">
+                <a href="/Like/" class="btn btn-lg btn-default" style="margin-right: 10px"><i class="far fa-heart"></i> Like</a>
+                <a href="/Skip/" class="btn btn-lg btn-default" style="margin-left: 10px"><i class="fas fa-times"></i> Skip</a>
+            </p>
+          </div>
+
+
+        </div>
+
+      </div>
+
+    </div>
+	<!--
+	<button id="start" style="border-radius:10px;">Start</button>
+	<button id="yes" onclick="displayImage()" style="color:blue;">Yes</button>
+	<button id="no" style="width:60px;height:25px;">No</button> -->
+
+</body>
+</html>

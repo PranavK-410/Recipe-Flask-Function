@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title> Foody's </title>
+	<link href="../static/css/bootstrap.min.css" rel="stylesheet">
+	<link href="../static/css/cover.css" rel="stylesheet">
+	<link href="../static/css/style.css" rel="stylesheet">
+  	<script defer src="https://use.fontawesome.com/releases/v5.0.1/js/all.js"></script>
+</head>
+<body>
+	<div class="site-wrapper">
+
+      <div class="site-wrapper-inner">
+
+        <div class="cover-container">
+
+          <div class="masthead clearfix">
+            <div class="inner" style ="padding-bottom: 50px">
+              <h3 class="masthead-brand" style="display:inline-block">
+                <a href="/initial/">
+                  <img class="img-responsive, title-logo" src="../static/logo-textSize.png" style="height:80px; margin-top:-20px"/>
+                </a>
+              </h3>
+              <nav>
+                <ul class="nav masthead-nav">
+                  <li><a href="/initial/">Get Inspired!</a></li>
+                  <li class="active"><a href="/favourites/">My Recipes</a></li>
+                </ul>
+              </nav>
+            </div>
+          </div>
+          <div class="inner cover" style="padding-top: 80px">
+            <div class = "lead, recipeImg-container">
+              <img class="img-responsive, lead, recipeImg" src="{{ imgPath }}"/>
+            </div>
+            <p class="lead, recipeName"> <b>{{  recipeName  }}</b></p>
+            <div class="recipe-container">
+              <p class="lead, recipe"> {{ recipe }} </p>
+            </div>
+            <br><br>
+            <p class="lead">
+              <a href="/favourites/" class="btn btn-lg btn-default">Next <i class="fas fa-arrow-right"></i></a>
+            </p>
+          </div>
+        </div>
+	  </div>
+	</div>
+</body>
+</html>

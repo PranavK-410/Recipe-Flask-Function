@@ -1,0 +1,45 @@
+.recipe{
+	text-align:left; 
+	font-size:16px;
+	max-height: 100%;
+	overflow: auto;
+}
+
+.recipeImg{
+	max-height:300px; 
+	max-width: 400px;
+	position: relative;
+  	top: 50%;
+  	transform: translateY(-50%);
+}
+
+.recipeImg-container{
+	height: 300px;
+	width: 400px;
+	margin:auto;
+	position: relative;
+}
+
+.recipeName{
+	font-size:30px;
+	overflow: auto;
+}
+
+.recipeName-container{
+	height: 80px;
+}
+
+.recipe-container{
+	font-size:60px;
+	height: 150px;
+}
+
+#logo{
+	width: 500px;
+	margin: auto;
+}
+
+.title-logo{
+	float: left;
+	padding-right: 5px;
+}
