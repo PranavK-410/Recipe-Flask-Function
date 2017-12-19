@@ -3,7 +3,7 @@
 This repository contains the source code for the Group Project of "COMPGC27 Programming for Business Analytics" course for UCL MSc in Business Analytics (academic year 2017-2018).
 
 ## Group Members
-* [Yolande Kaptein]https://github.com/yolaCaptain)
+* [Yolande Kaptein](https://github.com/yolaCaptain)
 * Akis Thomas
 * Hadrien de Vaucleroy
 * [Akis Karamaziotis](https://github.com/AkisKa)
