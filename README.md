@@ -13,7 +13,7 @@ This repository contains the source code for the Group Project of "COMPGC27 Prog
 ## Description
 
 In this project, we created an application that recommends recipes based on user's appetite and mood for food at a particular time. The dataset we were based on is the famous 
-["Yummly dataset"] (http://lherranz.org/datasets/) containing 28k food-related data points, including recipe name, ingredients, cuisine and course type, along with the corresponding images. The project was implemented 
+["Yummly dataset"](http://lherranz.org/datasets/) containing 28k food-related data points, including recipe name, ingredients, cuisine and course type, along with the corresponding images. The project was implemented 
 using Python's micro web framework, Flask and consists of two main parts: An initial clustering that groups recipes based on the aforementioned features and a live backend model, which 
 uses these clusters along with user input to create a preference matrix and display recipes that are close to the user's taste. For detailed information, you can check the full report.
 
