@@ -14,7 +14,7 @@ import os
 def ParseData(filepath):
     
     '''
-    Parse recipies to a DataFrame. Each recipy is stored in a JSON file, all of which must be
+    Parse recipes to a DataFrame. Each recipy is stored in a JSON file, all of which must be
     located under a /data/metadata27638 filepath.
     
     The function takes as an input the corresponding filepath, iterates through all JSON
@@ -22,9 +22,6 @@ def ParseData(filepath):
     '''
     
     # Root directory
-#    os.chdir("..")
-#    cwd = os.path.dirname(os.path.abspath("__file__"))
-#    os.chdir(cwd + "/data/metadata27638")
     cwd = os.path.dirname(os.path.abspath("__file__"))
     os.chdir(cwd + "/data/metadata27638")
 
